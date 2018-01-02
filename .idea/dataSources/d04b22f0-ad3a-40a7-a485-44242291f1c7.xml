@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - abc@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="abc">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="information_schema"/>
+    <schema id="4" parent="1" name="mysql"/>
+    <schema id="5" parent="1" name="performance_schema"/>
+    <schema id="6" parent="1" name="sakila"/>
+    <schema id="7" parent="1" name="sys"/>
+    <schema id="8" parent="1" name="world"/>
+    <table id="9" parent="2" name="tgs_admin"/>
+    <table id="10" parent="2" name="tgs_agent"/>
+    <table id="11" parent="2" name="tgs_code"/>
+    <table id="12" parent="2" name="tgs_config"/>
+    <table id="13" parent="2" name="tgs_dljb"/>
+    <table id="14" parent="2" name="tgs_hisagent"/>
+    <table id="15" parent="2" name="tgs_hissy"/>
+    <table id="16" parent="2" name="tgs_history"/>
+    <table id="17" parent="2" name="tgs_lc"/>
+    <table id="18" parent="2" name="tgs_lcfl"/>
+    <table id="19" parent="2" name="tgs_moban"/>
+    <table id="20" parent="2" name="tgs_pro"/>
+    <table id="21" parent="2" name="tgs_suyuan"/>
+    <column id="22" parent="9" name="id">
+      <DataType>tinyint(3)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="9" name="username">
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="9" name="password">
+      <DataType>varchar(40)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="9" name="glqx">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="9" name="glyxm">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="27" parent="9" name="admin_pic">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="28" parent="9" name="logins">
+      <DataType>mediumint(8)|0</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <key id="29" parent="9" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="10" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="10" name="agentid">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="32" parent="10" name="product">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="33" parent="10" name="quyu">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="34" parent="10" name="url">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="35" parent="10" name="about">
+      <DataType>longtext|0</DataType>
+    </column>
+    <column id="36" parent="10" name="addtime">
+      <DataType>date|0</DataType>
+    </column>
+    <column id="37" parent="10" name="jietime">
+      <DataType>date|0</DataType>
+    </column>
+    <column id="38" parent="10" name="name">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="39" parent="10" name="tel">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="40" parent="10" name="face">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="41" parent="10" name="phone">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="42" parent="10" name="idcard">
+      <DataType>varchar(80)|0</DataType>
+    </column>
+    <column id="43" parent="10" name="qq">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="44" parent="10" name="weixin">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="45" parent="10" name="dizhi">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="46" parent="10" name="beizhu">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="47" parent="10" name="hits">
+      <DataType>int(8)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="48" parent="10" name="query_time">
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="49" parent="10" name="dkpic">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="50" parent="10" name="sjdl">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="51" parent="10" name="hmd">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="52" parent="10" name="password">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="53" parent="10" name="sqtime">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="54" parent="10" name="sqdengji">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="55" parent="10" name="applytime">
+      <DataType>date|0</DataType>
+    </column>
+    <column id="56" parent="10" name="dengji">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="57" parent="10" name="shzt">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <index id="58" parent="10" name="agentid">
+      <ColNames>agentid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="59" parent="10" name="name">
+      <ColNames>name</ColNames>
+    </index>
+    <index id="60" parent="10" name="phone">
+      <ColNames>phone</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="61" parent="10" name="product">
+      <ColNames>product</ColNames>
+    </index>
+    <index id="62" parent="10" name="qq">
+      <ColNames>qq</ColNames>
+    </index>
+    <index id="63" parent="10" name="weixin">
+      <ColNames>weixin</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="10" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="65" parent="10" name="agentid">
+      <ColNames>agentid</ColNames>
+      <UnderlyingIndexName>agentid</UnderlyingIndexName>
+    </key>
+    <key id="66" parent="10" name="phone">
+      <ColNames>phone</ColNames>
+      <UnderlyingIndexName>phone</UnderlyingIndexName>
+    </key>
+    <key id="67" parent="10" name="weixin">
+      <ColNames>weixin</ColNames>
+      <UnderlyingIndexName>weixin</UnderlyingIndexName>
+    </key>
+    <column id="68" parent="11" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="69" parent="11" name="bianhao">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="70" parent="11" name="txm">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="71" parent="11" name="riqi">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="72" parent="11" name="product">
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="73" parent="11" name="zd1">
+      <DataType>varchar(250)|0</DataType>
+    </column>
+    <column id="74" parent="11" name="zd2">
+      <DataType>varchar(250)|0</DataType>
+      <DefaultExpression>&apos;www.wsyzhy.cc&apos;</DefaultExpression>
+    </column>
+    <column id="75" parent="11" name="suyuan">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="76" parent="11" name="qiyong">
+      <DataType>varchar(20)|0</DataType>
+      <DefaultExpression>&apos;yes&apos;</DefaultExpression>
+    </column>
+    <column id="77" parent="11" name="hits">
+      <DataType>int(8)|0</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="78" parent="11" name="query_time">
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="79" parent="11" name="adddate">
+      <DataType>date|0</DataType>
+    </column>
+    <index id="80" parent="11" name="bianhao">
+      <ColNames>bianhao</ColNames>
+    </index>
+    <index id="81" parent="11" name="txm">
+      <ColNames>txm</ColNames>
+    </index>
+    <key id="82" parent="11" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="12" name="id">
+      <DataType>mediumint(6)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="84" parent="12" name="parentid">
+      <DataType>smallint(5)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+    </column>
+    <column id="85" parent="12" name="code">
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="12" name="code_name">
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="12" name="code_value">
+      <DataType>text|0</DataType>
+    </column>
+    <column id="88" parent="12" name="store_range">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="89" parent="12" name="type">
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="90" parent="12" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="91" parent="13" name="id">
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="92" parent="13" name="dljb">
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="13" name="checkper">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="94" parent="13" name="editper">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="95" parent="13" name="jibie">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="96" parent="13" name="delper">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="97" parent="13" name="sjcheckper">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="98" parent="13" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="99" parent="14" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="100" parent="14" name="keyword">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="101" parent="14" name="addtime">
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="102" parent="14" name="addip">
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="103" parent="14" name="results">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="104" parent="14" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="105" parent="15" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="106" parent="15" name="czmx">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="107" parent="15" name="czy">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="108" parent="15" name="czdate">
+      <DataType>datetime|0</DataType>
+    </column>
+    <key id="109" parent="15" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="110" parent="16" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="111" parent="16" name="keyword">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="112" parent="16" name="addtime">
+      <DataType>datetime|0</DataType>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="113" parent="16" name="addip">
+      <DataType>varchar(40)|0</DataType>
+    </column>
+    <column id="114" parent="16" name="results">
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="115" parent="16" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="116" parent="17" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="117" parent="17" name="txm">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="118" parent="17" name="lcid">
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="17" name="zrr">
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="17" name="czy">
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="17" name="lcsm">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="17" name="czdate">
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="17" name="zt">
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="124" parent="17" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="125" parent="18" name="id">
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="126" parent="18" name="lcname">
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="127" parent="18" name="paixi">
+      <DataType>int(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="128" parent="18" name="adddate">
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="18" name="zt">
+      <DataType>varchar(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;yes&apos;</DefaultExpression>
+    </column>
+    <key id="130" parent="18" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="131" parent="19" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="132" parent="19" name="mb_lx">
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="133" parent="19" name="mb_en">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="134" parent="19" name="mb_cn">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="135" parent="19" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="136" parent="20" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="137" parent="20" name="pro_name">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="20" name="cpbh">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="20" name="cptxm">
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="20" name="cppic">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="141" parent="20" name="cppic2">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="142" parent="20" name="cppic3">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="143" parent="20" name="cppic4">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="144" parent="20" name="cpms">
+      <DataType>longtext|0</DataType>
+    </column>
+    <index id="145" parent="20" name="cpbh">
+      <ColNames>cpbh</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="146" parent="20" name="cptxm">
+      <ColNames>cptxm</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="147" parent="20" name="pro_name">
+      <ColNames>pro_name</ColNames>
+    </index>
+    <key id="148" parent="20" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="149" parent="20" name="cpbh">
+      <ColNames>cpbh</ColNames>
+      <UnderlyingIndexName>cpbh</UnderlyingIndexName>
+    </key>
+    <key id="150" parent="20" name="cptxm">
+      <ColNames>cptxm</ColNames>
+      <UnderlyingIndexName>cptxm</UnderlyingIndexName>
+    </key>
+    <column id="151" parent="21" name="id">
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="152" parent="21" name="sid">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="153" parent="21" name="name">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="154" parent="21" name="suyuan">
+      <DataType>longtext|0</DataType>
+    </column>
+    <column id="155" parent="21" name="czy">
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="156" parent="21" name="add_date">
+      <DataType>datetime|0</DataType>
+    </column>
+    <key id="157" parent="21" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Feign/Feign.iml" filepath="$PROJECT_DIR$/Feign/Feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ribbo/Ribbo.iml" filepath="$PROJECT_DIR$/Ribbo/Ribbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaClient/eurekaClient.iml" filepath="$PROJECT_DIR$/eurekaClient/eurekaClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekeServer/eurekeServer.iml" filepath="$PROJECT_DIR$/eurekeServer/eurekeServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaClient/userServicce.iml" filepath="$PROJECT_DIR$/eurekaClient/userServicce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userService/userService.iml" filepath="$PROJECT_DIR$/userService/userService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
     </modules>
   </component>
 </project>
